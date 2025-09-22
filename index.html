@@ -7,18 +7,21 @@
   <link rel="stylesheet" href="/src/styles.css">
 </head>
 <body>
-<main class="container" role="application" aria-label="Calculadora">
-     <section class="display-wrap">
-      <input 
-      id="display"
-      class="display"
-      type="text"
-      readonly
-      aria-live="polite"
-      />
+  <!-- título principal -->
+  <h1 class="titulo">🧮 Calculadora</h1>
 
-     </section>
-     <section class="keys" aria-label="Teclado da calculadora">
+  <main class="container" role="application" aria-label="Calculadora">
+    <section class="display-wrap">
+      <input 
+        id="display"
+        class="display"
+        type="text"
+        readonly
+        aria-live="polite"
+      />
+    </section>
+
+    <section class="keys" aria-label="Teclado da calculadora">
       <button data-act="clear">C</button>
       <button data-act="back">⌫</button>
       <button data-op="/">÷</button>
@@ -42,13 +45,15 @@
       <button data-num="0" class="zero">0</button>
       <button data-num=".">.</button>
     </section>
-    <!-- historico -->
-     <section class="history">
-      <h2>Historico</h2>
-      <button id ="clearHistory" class="clear-history">Limpar</button>
-      <ul id="historyList" aria-live="polite"></ul>
-     </section>
-</main>
-<script type="module" src="/src/main.ts"></script>
 
+    <!-- histórico -->
+    <section class="history">
+      <h2>Histórico</h2>
+      <button id="clearHistory" class="clear-history">Limpar</button>
+      <ul id="historyList" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <script type="module" src="/src/main.ts"></script>
 </body>
+</html>
