@@ -86,9 +86,8 @@ Exemplo de saída:
 ---
 
 ## 🌐 Deploy
-Sugestão: fazer deploy grátis na **Vercel** ou **Netlify**.  
-Exemplo de link no README:  
-👉 [Demo online](https://seu-usuario.vercel.app)
+
+Confira a demo online: [Calculadora Simples](https://calculadora-ts-olive.vercel.app/)
 
 ---
 
