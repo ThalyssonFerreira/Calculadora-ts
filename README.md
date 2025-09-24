@@ -1,7 +1,7 @@
 # 🧮 Calculadora Simples (HTML/CSS + TypeScript)
 
 Uma calculadora básica para operações matemáticas, feita com **Vite + TypeScript**.  
-Projeto pensado para portfólio/currículo de estágio ou dev júnior.
+
 
 ---
 
